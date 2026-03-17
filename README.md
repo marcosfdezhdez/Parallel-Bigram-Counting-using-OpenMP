@@ -6,7 +6,7 @@ This project focuses on counting bigrams (pairs of consecutive bytes) in a piece
 ## Repository Contents
 There is a Report which deeply analyses the project, including an introduction of the goals and the characteristics, the explanation of the algorithm used and parallelization strategy, and an analysis of the results and the corresponding discussion.
 
-## For reunning the code
+## For running the code
 For running the program there are just a few steps.
 First, create a text file with content. The one on the reporsitory is the recommended, with an appropriate size.
 You can change the input file in this part of the code: int main() {
