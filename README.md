@@ -1,10 +1,12 @@
 # Parallel-Bigram-Counting-using-OpenMP
 
+## Project Overview
 This project focuses on counting bigrams (pairs of consecutive bytes) in a piece of text. The idea is simple: given a large text, we want to scan it and compute how often each possible bigram appears. The sequential version works well but takes time when the input is large, so parallelizing it makes sense. 
 
+## Repository Contents
 There is a Report which deeply analyses the project, including an introduction of the goals and the characteristics, the explanation of the algorithm used and parallelization strategy, and an analysis of the results and the corresponding discussion.
 
-Running instructions: 
+## For reunning the code
 For running the program there are just a few steps.
 First, create a text file with content. The one on the reporsitory is the recommended, with an appropriate size.
 You can change the input file in this part of the code: int main() {
